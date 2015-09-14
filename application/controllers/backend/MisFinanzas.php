@@ -5,8 +5,12 @@ class MisFinanzas extends CI_Controller
 	{
 		parent::__construct();	
 	}
+	public function Index(){
+		echo "seccion finanzas";
+		}
 	private function movimientos()
 	{
+		
 	}
 	private function Tarjetas()
 	{

@@ -6,9 +6,8 @@ class MisProyectos extends CI_Controller
 		 parent::__construct();	
 		}	
 		
-		public function Index()
-		{
-				
+		public function Index(){
+		echo "seccion proyectos";
 		}
 		public function ComoProfesional()
 		{
