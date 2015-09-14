@@ -7,6 +7,10 @@ class Dashboard extends CI_Controller{
 		{
 		
 		}
+	private function validar()
+		{
+		
+		}
 	public function PerfilProfesional()
 		{
 		
