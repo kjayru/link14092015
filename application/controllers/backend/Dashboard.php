@@ -5,12 +5,9 @@ class Dashboard extends CI_Controller{
 		} 
 	public function Index()
 		{
-		
+		echo "Intranet";
 		}
-	private function validar()
-		{
-		
-		}
+	
 	public function PerfilProfesional()
 		{
 		
