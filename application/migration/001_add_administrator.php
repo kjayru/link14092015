@@ -5,6 +5,8 @@ class Migration_add_administrador extends CI_Migration {
 
 	public function up()
 	{
+		
+//creando administrador		
 		$this->dbforge->add_field(array(
 			'id' => array(
 				'type' => 'INT',
@@ -29,8 +31,10 @@ class Migration_add_administrador extends CI_Migration {
 			),
 		));
 		 $this->dbforge->add_key('id', TRUE);
-
 		$this->dbforge->create_table('administrador');
+		
+/// creando usuario
+ $this->dbforge->add_field(array());
 	}
 	public function down()
 	{
